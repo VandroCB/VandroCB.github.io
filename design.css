@@ -1,10 +1,89 @@
 @viewport {
     width: device-width;
 }
-
+body {
+    font-family: sans-serif;
+    margin: 0%;
+    background-color: #000000;
+    color: azure;
+}
 #test {
     width: 90dvw;
     background-color: aquamarine;
     margin-left: 4dvw;
     margin-right: 5dvw;
+}
+
+#mainTitle{
+    margin-top: 0dvh;
+}
+
+.Section2{
+    width: 90dvw;
+    background-color: rgb(59, 59, 59);
+    padding-left: 2dvw;
+    padding-right: 2dvw;
+    margin-top: 2dvh;
+    margin-bottom: 2dvh;
+}
+
+.selectionMenu {
+    
+    align-items: center;
+    width: 100dvw;
+    height: 100dvh;
+    z-index: 1;
+
+}
+
+.center{
+    display: block flex;
+    justify-content: center; /* aligns the items horizontally */
+    align-items: center; /* aligns the items vertically */
+    height: 97dvh;
+}
+
+.centerOnly{
+    display: flex;
+    justify-content: center; /* aligns the items horizontally */
+}
+
+.centerStack{
+    display: flex;
+    justify-content: center; /* aligns the items horizontally */
+    flex-direction: column;
+}
+
+.generalInfo{
+    justify-self: left;
+}
+
+.centerStack2{
+    display: flex;
+    justify-content: center; /* aligns the items horizontally */
+    align-items: center; /* aligns the items vertically */
+    flex-direction: column;
+}
+
+.stackElements {
+    display: flex;
+    flex-direction: column;
+}
+
+.section{
+    border-top: 2.5dvh;
+    border-bottom: 2.5dvh;
+    border-left: 5dvw;
+    border-right: 5dvw;
+    border-color: white;
+    background-color: black;
+}
+
+.extLink{
+    color: #107C10;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
 }
