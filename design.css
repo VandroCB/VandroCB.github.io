@@ -87,3 +87,29 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.tRowTable{
+    background-color: bisque;
+}
+
+
+th{
+    font-size: 20px;
+    justify-content: center;
+    background-color:  rgb(59, 59, 59);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
+td {
+    
+    font-size: 20px;
+    justify-content: center;
+    background-color:  rgb(59, 59, 59);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;
+}
