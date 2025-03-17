@@ -1,0 +1,10 @@
+@viewport {
+    width: device-width;
+}
+
+#test {
+    width: 90dvw;
+    background-color: aquamarine;
+    margin-left: 4dvw;
+    margin-right: 5dvw;
+}
