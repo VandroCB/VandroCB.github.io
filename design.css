@@ -96,6 +96,21 @@ body {
     margin-top: 4dvh;
 }
 
+.wImage{
+    width: 35dvw;
+    padding-left: 2.5dvw;
+    padding-right: 2.5dvw;
+    padding-top: 2.5dvh;
+    padding-bottom: 2.5dvh;
+}
+
+
+
+.wImagesContainer{
+    display: flex grid;
+    align-items: center;
+}
+
 th{
     font-size: 20px;
     justify-content: center;
