@@ -46,6 +46,7 @@ body {
 .centerOnly{
     display: flex;
     justify-content: center; /* aligns the items horizontally */
+    align-content: center;
 }
 
 .centerStack{
